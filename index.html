@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+
+  <!-- RESET -->
+  <link rel="stylesheet" href="vendor/reset/reset.css">
+
+  <!-- STYLING -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- INCLUDE JQUERY LOCALLY -->
+  <script src="vendor/jquery/jquery.js"></script>
+
+  <!-- INCLUDE LOCAL SCRIPT FILE -->
+  <script src="scripts/index.js"></script>
+
+        <style>
+         input[type=button] {
+            background-color: black;
+            color:red;
+            border: none;
+            text-decoration: none;
+            color: white;
+            padding: 5px 5px;
+            margin: 5px 5px;
+            cursor: pointer;
+         }
+      </style>
+
+</head>
+
+<body>
+<!--   <div class="row">
+    <div class="button clear">C</div>
+    <div class="display-box"></div>
+  </div>
+
+  <div class="row">
+    <div class="button number-input" data-number="7">7</div>
+    <div class="button number-input" data-number="8">8</div>
+    <div class="button number-input" data-number="9">9</div>
+    <div class="button command" data-operator="/">/</div>
+  </div>
+
+  <div class="row">
+    <div class="button number-input" data-number="4">4</div>
+    <div class="button number-input" data-number="5">5</div>
+    <div class="button number-input" data-number="6">6</div>
+    <div class="button command" data-operator="*">X</div>
+  </div>
+
+  <div class="row">
+    <div class="button number-input" data-number="1">1</div>
+    <div class="button number-input" data-number="2">2</div>
+    <div class="button number-input" data-number="3">3</div>
+    <div class="button command" data-operator="-">-</div>
+  </div>
+
+  <div class="row">
+    <div class="button number-input" data-number="0">0</div>
+    <div class="button decimal">.</div>
+    <div class="button command" data-operator="=">=</div>
+    <div class="button command" data-operator="+">+</div>
+  </div> -->
+
+  <div id="Calculator" class="main">
+
+  <div class="row">
+  
+    <div class="display">
+      <!-- what u punch in goes here -->
+    </div>
+    <!-- <input type="button" class="operator" value="C"/> -->
+  </div>
+
+
+  <div class="row">
+    <input type="button" value="7"/>
+
+    <input type="button" value="8"/>
+
+    <input type="button" value="9"/>
+
+    <input type="button" class="operator" value="/"/>
+
+  </div>
+
+  <div class="row">
+    <input type="button" value="4"/>
+
+    <input type="button" value="5"/>
+
+    <input type="button" value="6"/>
+
+    <input type="button" class="operator" value="*"/>
+    
+  </div>
+
+  <div class="row">
+    <input type="button" value="1"/>
+
+    <input type="button" value="2"/>
+
+    <input type="button" value="3"/>
+
+    <input type="button" class="operator" value="-"/>
+    
+  </div>
+
+  <div class="row">
+    <input type="button" value="0"/>
+
+    <!-- <input type="button" value="."/> -->
+    
+    <input type="button" class="operator" value="+"/>
+
+    <input type="button" class="operator" value="C"/>
+
+    <input type="button" class="operator" value="="/>
+
+    
+    
+  </div>
+
+
+<!--   <div class="row">
+    <td><input type="button" value="c" onclick="clr()"/></td>
+    <td><input type="text" id="display" name="display" disabled/></td>
+  </div>
+
+  <div class="row">
+    <td><input type="button" value="7" onclick=”calculator.display.value += ‘7’”></td>
+
+    <td><input type="button" value="8" onclick=”calculator.display.value += ‘8’”></td>
+
+    <td><input type="button" value="9" onclick=”calculator.display.value += ‘9’”></td>
+
+    <td><input type="button" class="operator" value="/" onclick=”calculator.display.value += ‘/’”></td>
+
+  </div>
+
+  <div class="row">
+    <input type=”button” name=”doit” value=”=”  onclick=”calculator.display.value = eval(calculator.display.value)”> -->
+  </div>
+
+</div>
+
+
+</body>
+</html>
